@@ -1,0 +1,8 @@
+/.vscode
+/node_modules
+./dist
+src/app.js
+
+*.env
+.env
+.env.*

@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.js",
+    "start": "node -r dotenv/config src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bull": "^4.16.4",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "http-status": "^1.7.4",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^5.9.2",
+    "mongodb-connection-string-url": "^3.0.1",
+    "mongoose": "^8.8.1",
+    "mongoose-aggregate-paginate-v2": "^1.1.2",
+    "mongoose-paginate-v2": "^1.8.5"
+  },
+  "description": ""
+}
