@@ -36,10 +36,10 @@ To set up this project locally, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/pritamkumarbishwas/skillsFrontend.git
-cd skillsFrontend
+git clone https://github.com/pritamkumarbishwas/skillsBackend.git
+cd skillsBackend
    npm i
-   npm start
+   npm run dev
 
 
 
